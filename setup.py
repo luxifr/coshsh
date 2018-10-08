@@ -55,12 +55,13 @@ class install_data(_install_data):
 
 
 setup(name='coshsh',
-      version='4.3.1',
+      version='5.1.0.1',
       description='Coshsh - config generator for monitoring systems',
       url='http://github.com/lausser/coshsh',
       author='Gerhard Lausser',
       author_email='gerhard.lausser@consol.de',
       license='AGPLv3',
+      keywords=['nagios', 'icinga', 'naemon', 'shinken', 'prometheus', 'monitoring'],
       packages=['coshsh'],
       data_files=[
           (os.path.join('recipes', 'default', 'classes'), 
